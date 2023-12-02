@@ -10,3 +10,11 @@ img{
 h1{
     text-align: center;
 }
+body{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
