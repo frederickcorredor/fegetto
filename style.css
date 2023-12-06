@@ -3,18 +3,44 @@
     margin: 0px;
     padding: 0px;
 }
-img{
-    width: 50%;
-    text-align: center;
-}
-h1{
-    text-align: center;
-}
+
 body{
     width: 100%;
-    min-width: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper{
+    width: 80%;
+    min-width: 350px;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(Fegetto.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a{
+    width: 90%;
+    border: solid 2px blue;
+    text-decoration: none;
+    text-align: center;
+    padding: 24px;
+    margin: 12px;
+    color: blue;
+    font-size: 30px;
+    background-color: white;
+}
+
+header img{
+    width: 90px;
+}
+
+.fegetto{
+    width: 60%;
 }
